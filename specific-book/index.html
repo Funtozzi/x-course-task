@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Band Store</title>
+    <link rel="stylesheet" href="./styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;600&family=Lora:wght@400;600&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <p>JS BAND STORE / Your full name</p>
-        <img src="../img/cart.svg" alt="cart">
-        <button>Sing-out</button>
-        <p>TestUser</p>
+    <header class="header">
+        <div class="header__logo-box">
+            <p>JS BAND STORE / Your full name</p>
+        </div>
+        <div class="header__sign-block">
+            <img class="header__card" src="../img/cart.svg" alt="cart">
+            <button type="button" class="header__sign-btn">Sing-out</button>
+            <p>TestUser</p>
+        </div>
     </header>
     <main>
-        <img src="../img/book_images/books/javascript_the_definitive_guide.jpg" alt="Book cover: Javascript the definitive guide">
+        <img src="../img/book_images/books/javascript_the_definitive_guide.jpg"
+            alt="Book cover: Javascript the definitive guide">
         <p><b>Book name: </b>JavaScript: The Definitive Guide, 7th Edition</p>
         <p><b>Book author: </b>David Flanagan</p>
         <p><b>Book level: </b>Beginner</p>
@@ -28,7 +41,15 @@
         <div>
             <button>Add to cart</button>
         </div>
-        <p><b>Description: </b>JavaScript is the programming language of the web and is used by more software developers today than any other programming language. For nearly 25 years this best seller has been the go-to guide for JavaScript programmers. The seventh edition is fully updated to cover the 2020 version of JavaScript, and new chapters cover classes, modules, iterators, generators, Promises, async/await, and metaprogramming. You’ll find illuminating and engaging example code throughout. This book is for programmers who want to learn JavaScript and for web developers who want to take their understanding and mastery to the next level. It begins by explaining the JavaScript language itself, in detail, from the bottom up. It then builds on that foundation to cover the web platform and Node.js.</p>
-    </main> 
+        <p><b>Description: </b>JavaScript is the programming language of the web and is used by more software developers
+            today than any other programming language. For nearly 25 years this best seller has been the go-to guide for
+            JavaScript programmers. The seventh edition is fully updated to cover the 2020 version of JavaScript, and
+            new chapters cover classes, modules, iterators, generators, Promises, async/await, and metaprogramming.
+            You’ll find illuminating and engaging example code throughout. This book is for programmers who want to
+            learn JavaScript and for web developers who want to take their understanding and mastery to the next level.
+            It begins by explaining the JavaScript language itself, in detail, from the bottom up. It then builds on
+            that foundation to cover the web platform and Node.js.</p>
+    </main>
 </body>
+
 </html>

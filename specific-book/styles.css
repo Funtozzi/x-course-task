@@ -1,0 +1,35 @@
+body {
+    font-family: 'Lora', serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__logo-box {
+    font-family: 'Chivo Mono', monospace;
+    font-weight: bold;
+    color: #0e345a;
+}
+
+.header__sign-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__card {
+    width: 30px;
+}
+  
+
+.header__sign-btn {
+    margin: 0 20px;
+    height: 40px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0e345a;
+    color: white;
+}
